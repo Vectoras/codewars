@@ -5,3 +5,4 @@ Codewars -> https://www.codewars.com/users/Vectoras
 3. Array.diff -> https://www.codewars.com/kata/523f5d21c841566fde000009/solutions/python
 4. Find The Parity Outlier -> https://www.codewars.com/kata/5526fc09a1bbd946250002dc
 5. Sum of Intervals -> https://www.codewars.com/kata/52b7ed099cdc285c300001cd/train/python
+6. The observed PIN -> https://www.codewars.com/kata/5263c6999e0f40dee200059d/train/python
