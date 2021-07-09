@@ -1,54 +1,76 @@
-def get_pins(observed):
-    array = list(observed)
-#     obv_array = list(observed)
-#     return get_possible_combos(list(observed))
-#     print("this is input: ", observed)
-#     ('11',["11", "22", "44", "12", "21", "14", "41", "24", "42"])
-#       loop the the integers of the number "11"
-#     print(observed)
-#     print(obv_array[len(obv_array)-1])
-#     return []
-    pos_combo = {
-            1 : [1, 2, 4],
-            2 : [1, 2, 3, 5],
-            3 : [2, 3, 6],
-            4 : [1, 4, 5, 7],
-            5 : [2, 4, 5, 6, 8],
-            6 : [3, 5, 6, 9],
-            7 : [4, 7, 8],
-            8 : [5, 7, 8, 9, 0],
-            9 : [6, 8, 9],
-            0 : [8, 0]
-            }
-        
-#     for element in pos_combo[array(0)]:
-#         print(element)
-    pos_combo[int(array[0])]
-    array_digit = array.pop(0)
-    print("this is digit: ", array_digit)
-    print("this is array: ", array)
-    print("this is given: ", observed)
-    return []
+# RECURSILVE SOLUTION WITH DETAILED COMMENTS
 
-def get_possible_combos(array):
+def get_pins(observed):
+    return get_possible_combos(list(observed));
+
+def get_possible_combos(pin):    
+    
     results = []
-    pos_combo = {
-            1 : [1, 2, 4],
-            2 : [1, 2, 3, 5],
-            3 : [2, 3, 6],
-            4 : [1, 4, 5, 7],
-            5 : [2, 4, 5, 6, 8],
-            6 : [3, 5, 6, 9],
-            7 : [4, 7, 8],
-            8 : [5, 7, 8, 9, 0],
-            9 : [6, 8, 9],
-            0 : [8, 0]
-            }
-    array_digit = array.pop(0)
-    for element in pos_combo[array_digit]:
-        if len(array) == 0:
-            return "STAP"
-        results = get_possible_combos(array)
-        results.append(element)
+    receivedResults = []
+    posibilities = {
+            '1' : ['1', '2', '4'],
+            '2' : ['1', '2', '3', '5'],
+            '3' : ['2', '3', '6'],
+            '4' : ['1', '4', '5', '7'],
+            '5' : ['2', '4', '5', '6', '8'],
+            '6' : ['3', '5', '6', '9'],
+            '7' : ['4', '7', '8'],
+            '8' : ['5', '7', '8', '9', '0'],
+            '9' : ['6', '8', '9'],
+            '0' : ['8', '0']
+            }    
+    
+    # extract current PIN digit
+    digit = pin.pop(0);
+    
+    # if at the end of initial PIN, meaning last digit -> all options are the ones in posibilities
+    if len(pin) == 0:
+        return posibilities[digit];
+    
+    # if it passes the above test, meaning not at the end of pin -> 
+    
+    # get all combinations based on the rest of the digits without this one (eg: 369 -> 69)
+    receivedResults = get_possible_combos(pin.copy());
+    
+    # go over all the possible digits 
+    for p in posibilities[digit]:
+        # add current possible digit to all the possible combinations recevied from the next step
+        for r in receivedResults:
+            results.append (p + r);
         
-    return results
+    return results;
+
+
+
+
+# RECURSIVE SOLUTION WITHOUT COMMENTS
+
+def get_pins(observed):
+    return get_possible_combos(list(observed));
+
+def get_possible_combos(pin):    
+    
+    results = []
+    receivedResults = []
+    posibilities = {
+            '1' : ['1', '2', '4'],
+            '2' : ['1', '2', '3', '5'],
+            '3' : ['2', '3', '6'],
+            '4' : ['1', '4', '5', '7'],
+            '5' : ['2', '4', '5', '6', '8'],
+            '6' : ['3', '5', '6', '9'],
+            '7' : ['4', '7', '8'],
+            '8' : ['5', '7', '8', '9', '0'],
+            '9' : ['6', '8', '9'],
+            '0' : ['8', '0']
+            }    
+    
+    digit = pin.pop(0);
+    if len(pin) == 0:
+        return posibilities[digit];
+    receivedResults = get_possible_combos(pin.copy());
+    for p in posibilities[digit]:
+        for r in receivedResults:
+            results.append (p + r);
+        
+    return results;
