@@ -10,3 +10,4 @@ Codewars -> https://www.codewars.com/users/Vectoras
 8. Reversed Strings -> https://www.codewars.com/kata/5168bb5dfe9a00b126000018/
 9. Remove String Spaces -> https://www.codewars.com/kata/57eae20f5500ad98e50002c5/
 10. Complementary DNA -> https://www.codewars.com/kata/554e4a2f232cdd87d9000038/
+11. Counting Duplicates -> https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/
