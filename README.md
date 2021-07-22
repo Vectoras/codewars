@@ -11,3 +11,4 @@ Codewars -> https://www.codewars.com/users/Vectoras
 9. Remove String Spaces -> https://www.codewars.com/kata/57eae20f5500ad98e50002c5/
 10. Complementary DNA -> https://www.codewars.com/kata/554e4a2f232cdd87d9000038/
 11. Counting Duplicates -> https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/
+12. Duplicate Encoder -> https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/
