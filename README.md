@@ -12,3 +12,6 @@ Codewars -> https://www.codewars.com/users/Vectoras
 10. Complementary DNA -> https://www.codewars.com/kata/554e4a2f232cdd87d9000038/
 11. Counting Duplicates -> https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/
 12. Duplicate Encoder -> https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/
+13. Your order, please -> https://www.codewars.com/kata/55c45be3b2079eccff00010f/
+14. Playing with digits -> https://www.codewars.com/kata/5552101f47fc5178b1000050
+15. Replace With Alphabet -> https://www.codewars.com/kata/546f922b54af40e1e90001da/
