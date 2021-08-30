@@ -15,3 +15,4 @@ Codewars -> https://www.codewars.com/users/Vectoras
 13. Your order, please -> https://www.codewars.com/kata/55c45be3b2079eccff00010f/
 14. Playing with digits -> https://www.codewars.com/kata/5552101f47fc5178b1000050
 15. Replace With Alphabet -> https://www.codewars.com/kata/546f922b54af40e1e90001da/
+16. Extract the domain name from a URL -> https://www.codewars.com/kata/514a024011ea4fb54200004b/
