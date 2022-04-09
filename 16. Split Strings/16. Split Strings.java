@@ -1,4 +1,4 @@
-/* Java - Split Strings
+/* 16. Split Strings
 https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/train/java */
 
 public class StringSplit {

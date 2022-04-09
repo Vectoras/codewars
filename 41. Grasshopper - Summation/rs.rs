@@ -1,4 +1,4 @@
-// 41 - Grasshopper - Summation
+// 41. Grasshopper - Summation
 // https://www.codewars.com/kata
 
 fn summation(n: i32) -> i32 {    

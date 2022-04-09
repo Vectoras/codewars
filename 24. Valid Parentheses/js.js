@@ -5,7 +5,7 @@ function validParentheses(parens) {
   let state = 0;
 
   for (let c = 0; c < parens.length; c++) {
-    parens[c] === ")" ? state-- : state++;
+    parens[c] === ')' ? state-- : state++;
     if (state < 0) return false;
   }
 

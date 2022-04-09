@@ -1,4 +1,4 @@
-// Replace With Alphabet Position
+// 17. Replace With Alphabet Position
 // https://www.codewars.com/kata/546f922b54af40e1e90001da/
 
 function alphabetPosition(text) {
@@ -32,9 +32,9 @@ function alphabetPosition(text) {
   };
 
   text = text.toLowerCase();
-  let results = "";
+  let results = '';
   for (let i = 0; i < text.length; i++) {
-    if (text[i] >= "a" && text[i] <= "z") results += dictionary[text[i]] + " ";
+    if (text[i] >= 'a' && text[i] <= 'z') results += dictionary[text[i]] + ' ';
   }
   return results.trim();
 }
