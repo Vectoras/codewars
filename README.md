@@ -60,3 +60,4 @@ Codewars -> https://www.codewars.com/users/Vectoras
 55. Subtract the Sum -> https://www.codewars.com/kata/56c5847f27be2c3db20009c3
 56. Smallest unused ID -> https://www.codewars.com/kata/55eea63119278d571d00006a
 57. Sum of positive -> https://www.codewars.com/kata/5715eaedb436cf5606000381
+58. Multiply -> https://www.codewars.com/kata/50654ddff44f800200000004
