@@ -62,3 +62,4 @@ Codewars -> https://www.codewars.com/users/Vectoras
 57. Sum of positive -> https://www.codewars.com/kata/5715eaedb436cf5606000381
 58. Multiply -> https://www.codewars.com/kata/50654ddff44f800200000004
 59. Square Every Digit -> https://www.codewars.com/kata/546e2562b03326a88e000020
+60. Find the unique number -> https://www.codewars.com/kata/585d7d5adb20cf33cb000235
